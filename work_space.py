@@ -47,7 +47,7 @@ def run(playwright: Playwright) -> None:
     page2.get_by_role("button", name="Continue").click()
     #sleep(33333)
     page2.get_by_label("Agree to terms of services and continue").click()
-    sleep(444444)
+    sleep(5)
     page2.get_by_role("button", name="Create account").click()
     sleep(4)
     #sleep(222222222)
